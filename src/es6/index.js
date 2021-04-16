@@ -103,7 +103,7 @@ helloPromise()
 class calculator {
     constructor() {
         this.valueA = 0;
-        this.valueB = 0;        
+        this.valueB = 0;
     }
     sum(valueA, valueB) {
         this.valueA = valueA;
@@ -128,7 +128,7 @@ console.log(calc.sum(2, 2));
 
 // function printNumbers() {
 // 	var i;
-// 	for (i = 0; i < 10; i++) {        
+// 	for (i = 0; i < 10; i++) {
 // 		setTimeout(
 //             function printer() {
 //                 console.log(i);
@@ -140,7 +140,7 @@ console.log(calc.sum(2, 2));
 // printNumbers();
 
 // function printNumbers() {
-// 	for (let i = 0; i < 10; i++) {        
+// 	for (let i = 0; i < 10; i++) {
 // 		// Cuando usamos let en un for-loop, es como si definieramos `i` aquí.
 //         setTimeout(
 //             function printer() {
